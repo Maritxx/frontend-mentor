@@ -4,6 +4,15 @@ body {
 	font-family: var(--body-font);
 }
 
+.button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 20px;
+	border-radius: 20px;
+}
+
 .button a {
 	width: 100%;
 	color: var(--white);
@@ -59,21 +68,23 @@ h2 {
 	width: 345px;
 	margin: 30px 15px;
 	border-radius: 20px;
+	background-color: var(--white);
 }
 
 .product-preview__image {
-	background-image: url(".img/image-product-mobile.jpg");
+	background-image: url("img/image-product-mobile.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .product-preview__content {
 	padding: 20px;
-	background-color: var(--white);
 }
 
 .product-content__prices {
 	display: flex;
+	align-items: baseline;
+	justify-content: space-between;	
 }
 
 
