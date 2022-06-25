@@ -1,1 +1,76 @@
+/*Global styles*/
+body {
+	background-color: var(--cream);
+	font-family: var(--body-font);
+}
 
+.button a {
+	width: 100%;
+	color: var(--white);
+	background-color: var(--cyan-light);
+	padding: 20px 0px;
+}
+
+.button:hover a {
+	cursor: pointer;
+	background-color: var(--cyan-dark);
+}
+
+.container {
+	margin: 0 auto;
+}
+
+/*Font styles*/
+h1 {
+	font-family: var(--heading-font);
+	font-weight: 700;
+	color: var(--blue-dark);
+}
+
+h2 {
+	color: var(--blue-med);
+	text-transform: uppercase;
+}
+
+.c-current-price {
+	color: var(--cyan-light);
+	font-size: 32px;
+}
+
+.c-discounted-price {
+	color: var(--blue-med);
+	text-decoration: line-through;
+}
+
+.product-preview p {
+	font-size: 14px;
+	color: var(--blue-med);
+}
+
+
+/*Product preview*/
+.product-preview__holder {
+	max-width: 345px;
+	margin: 30px 15px;
+	border-radius: 20px;
+}
+
+.product-preview__image {
+	background-image: url(".img/image-product-mobile.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.product-preview__content {
+	padding: 20px;
+	background-color: var(--white);
+}
+
+.product-content__prices {
+	display: flex;
+}
+
+
+/*Styling attribution*/
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
