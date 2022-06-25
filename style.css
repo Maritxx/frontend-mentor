@@ -49,8 +49,14 @@ h2 {
 
 
 /*Product preview*/
+.product-preview {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .product-preview__holder {
-	max-width: 345px;
+	width: 345px;
 	margin: 30px 15px;
 	border-radius: 20px;
 }
