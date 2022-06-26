@@ -13,7 +13,12 @@ body {
 }
 
 .container {
-	margin: 30px auto;
+	margin: 0 auto;
+}
+
+.pad {
+	padding-right: 15px;
+	padding-left: 15px;
 }
 
 .button {
@@ -36,10 +41,6 @@ body {
 .button:hover a {
 	cursor: pointer;
 	background-color: var(--cyan-dark);
-}
-
-.container {
-	margin: 0 auto;
 }
 
 .sixHundred {
@@ -124,3 +125,11 @@ h2 {
 /*Styling attribution*/
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+/*Media Queries*/
+@media screen and (max-width: 645px) {
+	.product-preview__holder {
+		flex-direction: column;
+	}
+}
