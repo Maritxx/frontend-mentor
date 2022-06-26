@@ -132,4 +132,8 @@ h2 {
 	.product-preview__holder {
 		flex-direction: column;
 	}
+
+	.product-preview__image {
+		padding-top: 40%;
+	}
 }
