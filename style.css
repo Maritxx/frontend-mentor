@@ -134,7 +134,9 @@ h2 {
 	}
 
 	.product-preview__image {
-		padding-top: 80%;
+		padding-top: 70%;
 		background-image: url("img/image-product-mobile.jpg");
+		border-bottom-left-radius: 0px;
+		border-top-right-radius: 20px;
 	}
 }
