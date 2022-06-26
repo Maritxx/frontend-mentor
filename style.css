@@ -4,6 +4,18 @@ body {
 	font-family: var(--body-font);
 }
 
+.page-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-height: 95vh;
+}
+
+.container {
+	margin: 30px auto;
+}
+
 .button {
 	display: flex;
 	align-items: center;
@@ -37,16 +49,13 @@ body {
     margin: 0 auto;
 }
 
-.pad {
-	padding-left: 15px;
-	padding-right: 15px;
-}
 
 /*Font styles*/
 h1 {
 	font-family: var(--heading-font);
 	font-weight: 700;
 	font-size: 32px;
+	line-height: 1;
 	color: var(--blue-dark);
 	padding: 20px 0px;
 }
@@ -63,7 +72,7 @@ h2 {
 	font-family: var(--heading-font);
 	font-weight: 700;
 	font-size: 32px;
-	padding-right: 20px;
+	padding-right: 25px;
 }
 
 .c-discounted-price {
@@ -74,6 +83,7 @@ h2 {
 .product-preview p {
 	font-size: 14px;
 	color: var(--blue-med);
+	line-height: 1.7;
 }
 
 
