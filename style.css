@@ -35,7 +35,7 @@ body {
 	font-weight: 500;
 	background-color: var(--cyan-light);
 	padding: 15px 0px;
-	border-radius: 20px;
+	border-radius: 10px;
 }
 
 .button:hover a {
@@ -97,14 +97,14 @@ h2 {
 
 .product-preview__holder {
 	display: flex;
-	border-radius: 20px;
+	border-radius: 10px;
 	background-color: var(--white);
 }
 
 .product-preview__image {
 	flex: 0 1 50%;
-	border-top-left-radius: 20px;
-	border-bottom-left-radius: 20px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
 	background-image: url("img/image-product-desktop.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -138,6 +138,6 @@ h2 {
 		padding-top: 70%;
 		background-image: url("img/image-product-mobile.jpg");
 		border-bottom-left-radius: 0px;
-		border-top-right-radius: 20px;
+		border-top-right-radius: 10px;
 	}
 }
