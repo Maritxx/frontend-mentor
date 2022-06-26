@@ -131,6 +131,7 @@ h2 {
 @media screen and (max-width: 645px) {
 	.product-preview__holder {
 		flex-direction: column;
+		max-width: 345px;
 	}
 
 	.product-preview__image {
