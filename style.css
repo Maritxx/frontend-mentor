@@ -45,12 +45,15 @@ body {
 h1 {
 	font-family: var(--heading-font);
 	font-weight: 700;
+	font-size: 32px;
 	color: var(--blue-dark);
 }
 
 h2 {
 	color: var(--blue-med);
 	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	font-size: 14px;
 }
 
 .c-current-price {
@@ -84,6 +87,7 @@ h2 {
 
 .product-preview__image {
 	flex: 0 1 50%;
+	border-radius: 20px;
 	background-image: url("img/image-product-desktop.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
