@@ -134,6 +134,7 @@ h2 {
 	}
 
 	.product-preview__image {
-		padding-top: 40%;
+		padding-top: 80%;
+		background-image: url("img/image-product-mobile.jpg");
 	}
 }
