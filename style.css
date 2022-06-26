@@ -9,14 +9,15 @@ body {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	padding: 20px;
+	padding: 25px 0px;
 }
 
 .button a {
 	width: 100%;
 	color: var(--white);
+	font-weight: 500;
 	background-color: var(--cyan-light);
-	padding: 20px 0px;
+	padding: 15px 0px;
 	border-radius: 20px;
 }
 
@@ -29,10 +30,10 @@ body {
 	margin: 0 auto;
 }
 
-.fourEighty {
+.sixHundred {
 	position: relative;
     width: 100%;
-    max-width: 480px;
+    max-width: 600px;
     margin: 0 auto;
 }
 
@@ -47,6 +48,7 @@ h1 {
 	font-weight: 700;
 	font-size: 32px;
 	color: var(--blue-dark);
+	padding: 20px 0px;
 }
 
 h2 {
@@ -58,7 +60,10 @@ h2 {
 
 .c-current-price {
 	color: var(--cyan-light);
+	font-family: var(--heading-font);
+	font-weight: 700;
 	font-size: 32px;
+	padding-right: 20px;
 }
 
 .c-discounted-price {
@@ -87,7 +92,8 @@ h2 {
 
 .product-preview__image {
 	flex: 0 1 50%;
-	border-radius: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
 	background-image: url("img/image-product-desktop.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -95,13 +101,13 @@ h2 {
 
 .product-preview__content {
 	flex: 0 1 50%;
-	padding: 20px;
+	padding: 25px;
 }
 
 .product-content__prices {
 	display: flex;
-	align-items: baseline;
-	justify-content: flex-start;	
+	align-items: center;
+	padding-top: 20px;	
 }
 
 
